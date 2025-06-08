@@ -1,8 +1,8 @@
-Flutter Crypto App
+# Flutter Crypto App
 
    Um aplicativo móvel desenvolvido em Flutter para exibir as principais criptomoedas, suas cotações em USD e BRL, e detalhes básicos, utilizando a API da CoinMarketCap.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Funcionalidades
+# Funcionalidades
 
 • Listagem das principais criptomoedas.
 • Pesquisa de criptomoedas por símbolo (separados por vírgula para múltiplas moedas).
@@ -31,11 +31,11 @@ Pré-requisitos
    Flutter SDK: [Instruções de instalação](https://flutter.dev/docs/get-started/install)
    Editor de Código: Visual Studio Code (com extensão Flutter) ou Android Studio.
 
-1-Passo: Clonar o Repositório
+Passo 1: Clonar o Repositório
 
   git clone (HTTPS do repositório)
 
-2-Passo: Configurar a Chave da CoinMarketCap API
+Passo 2: Configurar a Chave da CoinMarketCap API
    Este aplicativo utiliza a API da CoinMarketCap. Você precisará obter sua própria chave de API.
       Obtenha sua Chave de API:
 	  • Vá para https://coinmarketcap.com/api/.
@@ -44,13 +44,13 @@ Pré-requisitos
       Insira a Chave no Código:
 	  • Abra o arquivo lib\shared\constants/app_constants.dart no seu editor de código.
 	  • Substitua 'SUA_CHAVE_API_AQUI' pela sua chave API key real.
-3-Passo: Instalar Dependências:
+Passo 3: Instalar Dependências:
 	  • No terminal, na pasta raiz do projeto, execute: flutter pub get.
-4-Passo: Executar o Aplicativo:
+Passo 4: Executar o Aplicativo:
 	  • Inicie um emulador/simulador recomendo o Android Studio.
 	  • No terminal, na pasta raiz do projeto, execute: flutter run.
    Observação: Se por acaso não funcionar, execulta esses comando novamente
-      1. flutter clean (Limpar as dependências)
-      2. flutter pub get (Baixar as dependências)
-      3. flutter run (Execultar o app)
+      - flutter clean (Limpar as dependências)
+      - flutter pub get (Baixar as dependências)
+      - flutter run (Execultar o app)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
