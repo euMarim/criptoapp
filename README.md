@@ -22,32 +22,31 @@
 	• GetIt: Um Service Locator simples para Injeção de Dependências, facilitando a resolução e fornecimento de instâncias das classes (Services, Repositories, Use Cases, ViewModels) em
   todo o aplicativo.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#### Como Executar o Projeto ####
+Como Executar o Projeto
 
 Siga estas instruções para configurar e executar o projeto em sua máquina local.
 
-### Pré-requisitos
+Pré-requisitos
+   Certifique-se de ter o Flutter SDK instalado.
+   **Flutter SDK:** [Instruções de instalação](https://flutter.dev/docs/get-started/install)
+   **Editor de Código:** Visual Studio Code (com extensão Flutter) ou Android Studio.
 
-Certifique-se de ter o Flutter SDK instalado.
-**Flutter SDK:** [Instruções de instalação](https://flutter.dev/docs/get-started/install)
-**Editor de Código:** Visual Studio Code (com extensão Flutter) ou Android Studio.
-
-*1. Clonar o Repositório:
+1-Passo: Clonar o Repositório
 
   git clone (HTTPS do repositório)
 
-*2. Configurar a Chave da CoinMarketCap API:
-Este aplicativo utiliza a API da CoinMarketCap. Você precisará obter sua própria chave de API.
-  2.1 Obtenha sua Chave de API:
+2-Passo: Configurar a Chave da CoinMarketCap API
+   Este aplicativo utiliza a API da CoinMarketCap. Você precisará obter sua própria chave de API.
+      Obtenha sua Chave de API:
 	  • Vá para https://coinmarketcap.com/api/.
 	  • Crie uma conta (o plano gratuito "Basic" é suficiente para este projeto).
 	  • No seu Developer Dashboard, copie sua API Key.
-  2.2 Insira a Chave no Código:
+      Insira a Chave no Código:
 	  • Abra o arquivo lib\shared\constants/app_constants.dart no seu editor de código.
 	  • Substitua 'SUA_CHAVE_API_AQUI' pela sua chave API key real.
-*3. Instalar Dependências:
+3-Passo: Instalar Dependências:
 	  • No terminal, na pasta raiz do projeto, execute: flutter pub get.
-*4. Executar o Aplicativo:
+4-Passo: Executar o Aplicativo:
 	  • Inicie um emulador/simulador recomendo o Android Studio.
 	  • No terminal, na pasta raiz do projeto, execute: flutter run.
    Observação: Se por acaso não funcionar, execulta esses comando novamente
