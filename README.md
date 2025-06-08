@@ -1,7 +1,7 @@
 # Flutter Crypto App
 
    Um aplicativo móvel desenvolvido em Flutter para exibir as principais criptomoedas, suas cotações em USD e BRL, e detalhes básicos, utilizando a API da CoinMarketCap.
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Funcionalidades
 
 • Listagem das principais criptomoedas.
@@ -10,7 +10,7 @@
 • Indicador visual para a moeda de exibição (USD/BRL).
 • Detalhes da criptomoeda em um `BottomSheet` ao clicar (Nome, Símbolo, Data de Adição, Preço USD/BRL).
 • Pull-to-refresh para atualizar a lista de criptomoedas.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Arquitetura
 
 - Este projeto segue os princípios da Clean Architecture, separando as responsabilidades em três camadas principais:
@@ -21,7 +21,7 @@
 	• Provider: Utilizado para gerenciamento de estado na camada de Apresentação, permitindo que os Widgets acessem e reajam às mudanças nos ViewModels.
 	• GetIt: Um Service Locator simples para Injeção de Dependências, facilitando a resolução e fornecimento de instâncias das classes (Services, Repositories, Use Cases, ViewModels) em
   todo o aplicativo.
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### Como Executar o Projeto ####
 
 Siga estas instruções para configurar e executar o projeto em sua máquina local.
@@ -29,15 +29,14 @@ Siga estas instruções para configurar e executar o projeto em sua máquina loc
 ### Pré-requisitos
 
 Certifique-se de ter o Flutter SDK instalado.
+**Flutter SDK:** [Instruções de instalação](https://flutter.dev/docs/get-started/install)
+**Editor de Código:** Visual Studio Code (com extensão Flutter) ou Android Studio.
 
-* **Flutter SDK:** [Instruções de instalação](https://flutter.dev/docs/get-started/install)
-* **Editor de Código:** Visual Studio Code (com extensão Flutter) ou Android Studio.
-
-#1. Clonar o Repositório:
+*1. Clonar o Repositório:
 
   git clone (HTTPS do repositório)
 
-#2. Configurar a Chave da CoinMarketCap API:
+*2. Configurar a Chave da CoinMarketCap API:
 Este aplicativo utiliza a API da CoinMarketCap. Você precisará obter sua própria chave de API.
   2.1 Obtenha sua Chave de API:
 	  • Vá para https://coinmarketcap.com/api/.
@@ -46,13 +45,13 @@ Este aplicativo utiliza a API da CoinMarketCap. Você precisará obter sua próp
   2.2 Insira a Chave no Código:
 	  • Abra o arquivo lib\shared\constants/app_constants.dart no seu editor de código.
 	  • Substitua 'SUA_CHAVE_API_AQUI' pela sua chave API key real.
-#3. Instalar Dependências:
+*3. Instalar Dependências:
 	  • No terminal, na pasta raiz do projeto, execute: flutter pub get.
-#4. Executar o Aplicativo:
+*4. Executar o Aplicativo:
 	  • Inicie um emulador/simulador recomendo o Android Studio.
 	  • No terminal, na pasta raiz do projeto, execute: flutter run.
    Observação: Se por acaso não funcionar, execulta esses comando novamente
       1. flutter clean (Limpar as dependências)
       2. flutter pub get (Baixar as dependências)
       3. flutter run (Execultar o app)
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
