@@ -28,8 +28,8 @@ Siga estas instruções para configurar e executar o projeto em sua máquina loc
 
 Pré-requisitos
    Certifique-se de ter o Flutter SDK instalado.
-   **Flutter SDK:** [Instruções de instalação](https://flutter.dev/docs/get-started/install)
-   **Editor de Código:** Visual Studio Code (com extensão Flutter) ou Android Studio.
+   Flutter SDK: [Instruções de instalação](https://flutter.dev/docs/get-started/install)
+   Editor de Código: Visual Studio Code (com extensão Flutter) ou Android Studio.
 
 1-Passo: Clonar o Repositório
 
