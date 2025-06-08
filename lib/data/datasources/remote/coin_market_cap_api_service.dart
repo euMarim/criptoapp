@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:cryptoapp/data/models/cryptocurrency_model.dart';
-import 'package:cryptoapp/presentation/shared/constants/app_constants.dart';
+import 'package:cryptoapp/shared/constants/app_constants.dart';
 
 class CoinMarketCapApiService {
   final String _baseUrl = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency';
