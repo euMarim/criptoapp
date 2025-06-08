@@ -1,8 +1,8 @@
-# Flutter Crypto App
+Flutter Crypto App
 
    Um aplicativo móvel desenvolvido em Flutter para exibir as principais criptomoedas, suas cotações em USD e BRL, e detalhes básicos, utilizando a API da CoinMarketCap.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Funcionalidades
+Funcionalidades
 
 • Listagem das principais criptomoedas.
 • Pesquisa de criptomoedas por símbolo (separados por vírgula para múltiplas moedas).
@@ -11,7 +11,7 @@
 • Detalhes da criptomoeda em um `BottomSheet` ao clicar (Nome, Símbolo, Data de Adição, Preço USD/BRL).
 • Pull-to-refresh para atualizar a lista de criptomoedas.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Arquitetura
+Arquitetura
 
 - Este projeto segue os princípios da Clean Architecture, separando as responsabilidades em três camadas principais:
 	• Presentation Layer (lib/presentation): Contém a UI (Widgets) e o gerenciamento de estado (ViewModels). Interage diretamente com a camada de Domínio.
