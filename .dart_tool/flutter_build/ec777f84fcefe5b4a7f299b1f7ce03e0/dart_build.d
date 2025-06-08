@@ -1,0 +1,1 @@
+ C:\\Users\\Lucas\ Marim\\Downloads\\cryptoAPP\\cryptoapp\\.dart_tool\\flutter_build\\ec777f84fcefe5b4a7f299b1f7ce03e0\\dart_build_result.json: 
