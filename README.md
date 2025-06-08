@@ -4,25 +4,24 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Funcionalidades
 
-• Listagem das principais criptomoedas.
-• Pesquisa de criptomoedas por símbolo (separados por vírgula para múltiplas moedas).
-• Visualização de cotações em USD e BRL, com formatação monetária.
-• Indicador visual para a moeda de exibição (USD/BRL).
-• Detalhes da criptomoeda em um `BottomSheet` ao clicar (Nome, Símbolo, Data de Adição, Preço USD/BRL).
-• Pull-to-refresh para atualizar a lista de criptomoedas.
+ Listagem das principais criptomoedas.
+ Pesquisa de criptomoedas por símbolo (separados por vírgula para múltiplas moedas).
+ Visualização de cotações em USD e BRL, com formatação monetária.
+ Indicador visual para a moeda de exibição (USD/BRL).
+ Detalhes da criptomoeda em um `BottomSheet` ao clicar (Nome, Símbolo, Data de Adição, Preço USD/BRL).
+ Pull-to-refresh para atualizar a lista de criptomoedas.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Arquitetura
 
 - Este projeto segue os princípios da Clean Architecture, separando as responsabilidades em três camadas principais:
-	• Presentation Layer (lib/presentation): Contém a UI (Widgets) e o gerenciamento de estado (ViewModels). Interage diretamente com a camada de Domínio.
-	• Domain Layer (lib/domain): O coração da aplicação, contendo as entidades (Entities) e os casos de uso (Use Cases). Independente de qualquer framework ou implementação.
-	• Data Layer (lib/data): Responsável por buscar e armazenar dados. Inclui as fontes de dados (Datasources) e os repositórios (Repositories) que implementam as interfaces do Domínio.
+   • Presentation Layer (lib/presentation): Contém a UI (Widgets) e o gerenciamento de estado (ViewModels). Interage diretamente com a camada de Domínio.
+   • Domain Layer (lib/domain): O coração da aplicação, contendo as entidades (Entities) e os casos de uso (Use Cases). Independente de qualquer framework ou implementação.
+   • Data Layer (lib/data): Responsável por buscar e armazenar dados. Inclui as fontes de dados (Datasources) e os repositórios (Repositories) que implementam as interfaces do 	Domínio.
 - Gerenciamento de Estado e Injeção de Dependências
-	• Provider: Utilizado para gerenciamento de estado na camada de Apresentação, permitindo que os Widgets acessem e reajam às mudanças nos ViewModels.
-	• GetIt: Um Service Locator simples para Injeção de Dependências, facilitando a resolução e fornecimento de instâncias das classes (Services, Repositories, Use Cases, ViewModels) em
-  todo o aplicativo.
+   • Provider: Utilizado para gerenciamento de estado na camada de Apresentação, permitindo que os Widgets acessem e reajam às mudanças nos ViewModels.
+   • GetIt: Um Service Locator simples para Injeção de Dependências, facilitando a resolução e fornecimento de instâncias das classes (Services, Repositories, Use Cases, 		ViewModels) em todo o aplicativo.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Como Executar o Projeto
+# Como Executar o Projeto
 
 Siga estas instruções para configurar e executar o projeto em sua máquina local.
 
@@ -32,9 +31,7 @@ Pré-requisitos
    Editor de Código: Visual Studio Code (com extensão Flutter) ou Android Studio.
 
 Passo 1: Clonar o Repositório
-
   git clone (HTTPS do repositório)
-
 Passo 2: Configurar a Chave da CoinMarketCap API
    Este aplicativo utiliza a API da CoinMarketCap. Você precisará obter sua própria chave de API.
       Obtenha sua Chave de API:
